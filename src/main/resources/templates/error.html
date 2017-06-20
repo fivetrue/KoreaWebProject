@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<div th:replace="fragments/header :: header-css" />
+</head>
+
+<body>
+<body>
+	<h2>Something happened...</h2>
+	<p th:text="${message}">Exception message</p>
+</body>
+<div th:replace="fragments/footer :: footer" />
+
+</html>
